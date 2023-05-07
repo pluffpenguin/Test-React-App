@@ -14,11 +14,23 @@ class CustomComponent extends Component{
   constructor(props){
     super(props);
     this.state = {
-      message: ''
+      text: 'Hello World!'
     }
+    this.changeText = this.changeText.bind(this);
   }
-
-  
+  changeText(newText){
+    this.setState({
+      text: newText
+    });
+  }
+  render(){
+    return( 
+    <div>
+      <p>{this.state.text}</p>
+      <button onClick={this.changeText}>Change Text</button>
+    </div>
+    );
+  }
 }
 
 function App() {
