@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:#2e7bff;
+  margin: 10px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1, h2, p {
+  color: white;
+  text-align:center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-variant-caps:titling-caps;
+}
+
+h1 {
+  background:linear-gradient(teal, black);
+  border-radius: 5px;
+  background-size: 100%, 100%;
 }

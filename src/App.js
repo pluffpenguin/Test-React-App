@@ -35,20 +35,14 @@ class CustomComponent extends Component{
 
 function App() {
   return (
-    <div className='row'>
-        <div className='col-6'>
-          <h1>First test website project.</h1>
-          <p>Paragraph. </p>
-          <div>
-            <img className="avatar" src="jayform.jpg" alt='logo'/>
-            <div>
-              <MyButton/>
-              <iframe title='Stream' classNam e='iFrame' src="https://bestsolaris.com/solaris.php?postid=32387" allowfullscreen allowtransparency></iframe>
-            </div>
-          </div>
-        </div>
-        <div className='col-6'></div>
-    </div>
+    <body>
+      <h1>Kiaran Lau</h1>
+      <h2>Welcome to my Portfolio Website! </h2>
+      <img className="avatar" src="jayform.jpg" alt='logo'/>
+      <div>
+        <MyButton/>
+      </div> 
+    </body>
   );
 }
 
