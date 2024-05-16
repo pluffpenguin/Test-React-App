@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background:#2e7bff;
+  background:whitesmoke;
   margin: 10px;
 }
 
@@ -15,14 +15,14 @@ code {
 }
 
 h1, h2, p {
-  color: white;
+  color: #bfbfbf;
   text-align:center;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-variant-caps:titling-caps;
 }
 
 h1 {
-  background:linear-gradient(teal, black);
+  background: #4287f5;  
   border-radius: 5px;
   background-size: 100%, 100%;
 }
